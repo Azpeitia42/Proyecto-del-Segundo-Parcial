@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TIPOGRAFÍA-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!--CONEXION AL .CSS-->
+    <link rel="stylesheet" href="/CSS/StyleContacto.css" />
+
+    <title>ACERCA DE</title>
+
+
+</head>
+<body>
+        <!--ENCABEZADO 1-->
+    <header>
+        <div class="encabezado1">
+            <div class="titulo">
+                <h1 class="autocar">AUTOMAX</h1>
+            </div>
+        </div>
+
+
+    <!--ENCABEZADO 2-->
+        <div class="encabezado2">
+            <nav class="navbar navegacion">
+                <ul class="menu">
+                    <li><a href="Catalogo.html">CATÁLOGO</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="AcercaDe.html">ACERCA DE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+
+    <!--IMAGEN-->
+    <div class="imagen">
+        <div class="contenido">
+            <h2>EN DONDE NOS PUEDES ENCONTRAR</h2>
+        </div>
+    </div>
+
+    <!--INFORMACION-->
+    <div class="informacion">
+        <div class="contenedor">
+            <div class="info">
+                <h3>DIRECCIÓN</h3>
+                <p>Vía Lombardia 5700-8<br>El Saucito, 31110<br>Chihuahua, Chih.</p>
+            </div>
+            <div class="info">
+                <h3>TELÉFONO</h3>
+                <p>614 - 425 - 6060</p>
+            </div>
+            <div class="info">
+                <h3>CORREO<br />ELECTRÓNICO</h3>
+                <p>servicioautomax@automax.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTACTANOS-->
+    <div class="contactanos">
+        <div class="contenedor2">
+            <div class="info1">
+                <h3>Contactanos</h3>
+                <form action="/registro" method="post">
+                    <div class="info1">
+                        <h3>NOMBRE</h3>
+                        <input id="nombre" type="text" name="nombre" required/>
+                        <h3>TELÉFONO</h3>
+                        <input id="telefono" type="tel" name="telefono" required/>
+                        </div>
+                        <div class="info1">
+                            <h3>CORREO</h3>
+                            <input id="email" type="email" name="email" required/>
+                        </div>
+                        <div class="info1">
+                            <p>DUDAS</p>
+                            <input id="query" type="text" name="query" />
+                        </div>
+                        <input id="enviar" type="submit" value="Enviar"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
